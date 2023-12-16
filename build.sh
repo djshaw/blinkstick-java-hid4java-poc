@@ -1,6 +1,7 @@
 #!/bin/bash
 
 set -e
+set -o
 set -x
 
 if [[ ! -f hid4java.jar || ! -f jna.jar ]] ; then
